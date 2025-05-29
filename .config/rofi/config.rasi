@@ -1,0 +1,22 @@
+configuration {
+    modi: "run,drun,window";
+    show-icons: true;
+    font: "Iosevka 12";
+    icon-theme: "Paper Mono";
+
+    display-ssh:    "󰣀 ssh ";
+    display-run:    "󱓞 run ";
+    display-window: "󱂬 window ";
+    display-combi:  "󰕘 combi ";
+    display-filebrowser: "󰉋 filebrowser:";
+
+    drun-display-format: "{icon} {name}";
+    location: 0;
+    disable-history: false;
+    hide-scrollbar: true;
+    display-drun: "󰣆  Application ";
+
+    dpi: 120;
+}
+
+@theme "gruvbox-material"
