@@ -33,10 +33,12 @@
     zoxide
     fzf
 
+    # C++
+    clang-tools
+
     # Python cli
     uv
     ruff
-    mypy
 
     # Emace CLI deps
     nixfmt-rfc-style
@@ -54,7 +56,6 @@
     tree
     daemon
     unzip
-    pipx
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
